@@ -1,3 +1,5 @@
+//////In postfix exp order alrdy sorted so just take prev 2 of operator and perform operation, and in case of in or pre conversions just (a-b) and -ab
+
 let exp = "264*8/+3-";
 
 let operations = {
